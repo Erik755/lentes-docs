@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="index,follow">
+  <meta name="description" content="Política de privacidad oficial de Lentes para Android.">
+  <title>Política de Privacidad - Lentes</title>
+  <style>
+    :root { --bg:#0b0b0c; --card:#171513; --line:#3d3933; --accent:#c45c4a; --cream:#f6f1e8; --muted:#b8b0a3; --teal:#66a59b; }
+    * { box-sizing:border-box; }
+    body { margin:0; padding:32px 18px; background:var(--bg); color:var(--cream); font-family:system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif; line-height:1.7; }
+    .container { max-width:920px; margin:0 auto; }
+    header,.card { background:var(--card); border:1px solid var(--line); border-radius:18px; padding:28px; margin-bottom:20px; }
+    header { text-align:center; background:radial-gradient(circle at top,#2c211d,#171513 62%); }
+    .mark { width:74px; height:74px; margin:0 auto 14px; border:8px solid var(--cream); border-radius:50%; box-shadow:inset 0 0 0 9px var(--bg), inset 0 0 0 18px var(--accent); }
+    .badge { display:inline-block; padding:5px 13px; border:1px solid rgba(196,92,74,.7); border-radius:999px; color:#efaa9e; font-size:.78rem; font-weight:700; letter-spacing:.08em; }
+    h1 { margin:10px 0 2px; font-family:Georgia,serif; font-size:2.35rem; }
+    h2 { color:#efaa9e; margin:0 0 10px; font-size:1.2rem; }
+    p,li { color:var(--muted); }
+    strong { color:var(--cream); }
+    a { color:#91d1c7; }
+    code { color:#f0c7bd; }
+    .highlight { padding:14px 18px; border-left:4px solid var(--teal); border-radius:8px; background:rgba(102,165,155,.1); color:#d9f2ee; }
+    .lang { text-align:center; margin:0 0 20px; }
+    .lang a { margin:0 8px; }
+    footer { padding:18px; color:#8e887c; text-align:center; font-size:.9rem; }
+  </style>
+</head>
+<body>
+<main class="container">
+  <header>
+    <div class="mark" aria-hidden="true"></div>
+    <span class="badge">POLÍTICA DE PRIVACIDAD OFICIAL</span>
+    <h1>Lentes</h1>
+    <p><strong>Application ID:</strong> <code>app.lentes.camaras</code><br>
+      <strong>Última actualización:</strong> 19 de septiembre de 2026 · <strong>Versión:</strong> 1.20</p>
+  </header>
+
+  <nav class="lang"><a href="#es">Español</a> · <a href="#en">English</a></nav>
+
+  <section class="card" id="es">
+    <h2>1. Resumen y responsable</h2>
+    <p><strong>Lentes</strong> es una aplicación Android para organizar las fotografías y videos tomados con la cámara del dispositivo en carpetas separadas, crear accesos directos y, cuando el usuario lo solicita, respaldar cada carpeta en un álbum de Google Fotos.</p>
+    <div class="highlight"><strong>Privacidad por diseño:</strong> Lentes no tiene servidores propios, no muestra anuncios y no incorpora herramientas de analítica o rastreo del desarrollador. Las fotos permanecen en el dispositivo salvo cuando el usuario inicia expresamente un respaldo a su propia cuenta de Google Fotos.</div>
+    <p><strong>Responsable:</strong> Erik Sanchez / Extreme Solutions<br>
+      <strong>Soporte y privacidad:</strong> <a href="mailto:sanchezerik836@gmail.com">sanchezerik836@gmail.com</a><br>
+      <strong>Código y documentación:</strong> <a href="https://github.com/Erik755/Lentes">github.com/Erik755/Lentes</a></p>
+  </section>
+
+  <section class="card">
+    <h2>2. Datos que maneja la aplicación</h2>
+    <ul>
+      <li><strong>Fotos y videos:</strong> Lentes detecta las capturas recientes, las organiza en la carpeta elegida y muestra el contenido de cada lente. Los archivos pueden contener metadatos creados por la cámara.</li>
+      <li><strong>Iconos personalizados:</strong> si el usuario selecciona una imagen como icono de un lente, se procesa y guarda una copia reducida dentro del almacenamiento privado de la app.</li>
+      <li><strong>Datos de configuración:</strong> nombres de lentes, colores, accesos directos, estado del recorrido, idioma, vínculo técnico con el álbum remoto y preferencias de respaldo.</li>
+      <li><strong>Estado de compra:</strong> Google Play Billing comunica a la app si la compra Full está activa, pendiente o ausente. Lentes no recibe números de tarjeta ni datos bancarios.</li>
+    </ul>
+  </section>
+
+  <section class="card">
+    <h2>3. Google Fotos</h2>
+    <p>El respaldo es opcional y comienza únicamente cuando el usuario selecciona “Subir carpeta a Google Fotos”. La app solicita autorización para crear contenido y consultar solamente los álbumes y elementos creados por Lentes, de acuerdo con los alcances de Google Photos Library API.</p>
+    <p>Los archivos se transmiten cifrados directamente desde el dispositivo a Google Fotos. La aplicación guarda localmente el identificador del álbum y de los elementos confirmados para reutilizar el mismo álbum, evitar duplicados y comprobar el respaldo. El desarrollador no recibe las fotos, videos ni tokens de acceso.</p>
+    <p>Si se activa “borrar del dispositivo”, la eliminación local solo se solicita después de comprobar que todos los archivos actuales están dentro del álbum. Los archivos de Google Fotos no se eliminan automáticamente.</p>
+  </section>
+
+  <section class="card">
+    <h2>4. Compras y prueba Full</h2>
+    <p>Lentes ofrece una prueba Full de 20 días y una compra única de por vida mediante Google Play. Google procesa el pago conforme a su propia política de privacidad. La app consulta el historial y estado de la compra únicamente para habilitar las funciones adquiridas.</p>
+  </section>
+
+  <section class="card">
+    <h2>5. Permisos</h2>
+    <ul>
+      <li><strong>Fotos, videos y ubicación multimedia:</strong> para identificar y organizar capturas recientes conservando los metadatos del archivo.</li>
+      <li><strong>Administración multimedia:</strong> acceso opcional concedido desde la pantalla de Android para mover o eliminar archivos sin pedir una confirmación por cada foto.</li>
+      <li><strong>Internet y servicio de sincronización:</strong> para autorizar Google Fotos y ejecutar respaldos visibles mediante una notificación de progreso.</li>
+      <li><strong>Notificaciones:</strong> para mostrar el avance de un respaldo en segundo plano cuando Android lo permita.</li>
+    </ul>
+  </section>
+
+  <section class="card">
+    <h2>6. Conservación, eliminación y seguridad</h2>
+    <p>La configuración y los índices de respaldo se guardan localmente mientras la app esté instalada. El usuario puede borrar fotos desde Lentes, borrar los datos de la aplicación o desinstalarla. Los álbumes y elementos respaldados deben administrarse desde Google Fotos. El acceso de Lentes puede revocarse desde la cuenta de Google.</p>
+    <p>Las conexiones con Google utilizan HTTPS. Lentes no vende datos personales, no usa identificadores publicitarios y no comparte información con anunciantes.</p>
+  </section>
+
+  <section class="card">
+    <h2>7. Menores y cambios</h2>
+    <p>Lentes es una herramienta general de productividad y no está dirigida específicamente a menores de 13 años. Esta política podrá actualizarse para reflejar cambios funcionales, legales o de Google Play. La fecha y versión vigentes siempre aparecerán en esta página.</p>
+  </section>
+
+  <section class="card" id="en" lang="en">
+    <h2>Privacy Policy — English summary</h2>
+    <p><strong>Lentes</strong> is an Android utility that organizes camera photos and videos into separate folders and, only when requested by the user, backs up a folder to a matching album in the user’s Google Photos account.</p>
+    <p>Lentes has no developer-operated backend, advertising, or developer analytics. Media stays on the device unless the user starts a Google Photos backup. Uploads go directly to Google over HTTPS. The developer does not receive media or OAuth access tokens.</p>
+    <p>The app locally stores lens names, preferences, remote album identifiers, verified backup references, language, trial state, and purchase entitlement. Google Play Billing processes the lifetime Full purchase; the app never receives card or bank details.</p>
+    <p>Users can remove local media in the app, clear app data, uninstall the app, manage backed-up media in Google Photos, and revoke Lentes access from their Google Account. Lentes is not specifically directed to children under 13.</p>
+    <p><strong>Developer:</strong> Erik Sanchez / Extreme Solutions · <strong>Privacy contact:</strong> <a href="mailto:sanchezerik836@gmail.com">sanchezerik836@gmail.com</a></p>
+  </section>
+
+  <footer>© 2026 Lentes · Extreme Solutions</footer>
+</main>
+</body>
+</html>
